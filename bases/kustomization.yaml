@@ -1,0 +1,9 @@
+kind: ResourceQuota
+metadata:
+  name: common
+  namespace: $NAMESPACE
+spec:
+  hard:
+    limits.cpu: "1"
+    limits.memory: "1Gi"
+    resourcequotas: "1"
