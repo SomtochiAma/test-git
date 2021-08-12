@@ -3,6 +3,6 @@ kind: ConfigMap
 metadata:
   name: metas
 data:
-  limits.cpu: "16"
-  limits.memory: 24Gi
+  limits.cpu: "12"
+  limits.memory: 20Gi
 
